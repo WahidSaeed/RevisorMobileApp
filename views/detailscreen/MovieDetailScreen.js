@@ -69,7 +69,7 @@ export default class MovieDetailScreen extends Component {
             contentBackgroundColor="#fff" 
             renderForeground={() => (
               <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }} onTouchEnd={() => {
-                this.setModalVisible(false);
+                this.setModalVisible(true);
               }}>
                   <Image resizeMode="cover" source={{uri: 'https://m.media-amazon.com/images/M/MV5BNGU2MTQ0ZDEtZjU2ZC00MGI3LWFlYTAtMGExMmUxMTJjYzc1XkEyXkFqcGdeQXVyNTYyMDE3Nzg@.jpg', width: window.width, height: 300}} style={styles.backgroundImage} />
                   <View style={{ padding: 20, position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, height: 300, alignItems: 'flex-start', justifyContent: 'center' }}>
