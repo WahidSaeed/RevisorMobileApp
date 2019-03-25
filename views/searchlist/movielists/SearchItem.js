@@ -55,7 +55,7 @@ export default class MovieSearchItemList extends Component {
                 </ListItem>
               </List>
             </Content>
-          </Container>
+        </Container>
         );
     }
 }
