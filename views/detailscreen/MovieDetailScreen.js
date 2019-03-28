@@ -67,7 +67,7 @@ export default class MovieDetailScreen extends Component {
           </Modal>
           <ParallaxScrollView
             contentBackgroundColor="#000"
-            parallaxHeaderHeight={300}
+            parallaxHeaderHeight={301}
             contentBackgroundColor="#fff" 
             renderForeground={() => (
               <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }} onTouchEnd={() => {
